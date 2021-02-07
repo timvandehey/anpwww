@@ -18,7 +18,7 @@
 
 BODY {
     background-attachment: fixed;
-    /* background-image: url(c8.jpg); */
+    background-image: url("./images/noisy_grid.png");
     font-family: "Roboto";
     font-size: 16px;
     /* font-family: arial;
@@ -209,6 +209,7 @@ td,
 tr {
     padding: 0;
     margin: 0;
+    border: 0;
 }
 
 .nav {
@@ -227,7 +228,8 @@ nav li {
     margin: .4rem;
 }
 
-.banner {
+.banner,
+.footer {
     background-color: var(--secondary);
 }
 
@@ -261,4 +263,23 @@ li {
     border-radius: 30%;
     border: 2px solid var(--black);
 
+}
+
+.columns2 {
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-gap: 1rem;
+}
+
+.columns2 .left {
+    justify-self: right;
+}
+
+.columns2 .right {
+    justify-self: left;
+}
+
+.logo {
+    width: clamp(60%, 50%, 90%)
 }
