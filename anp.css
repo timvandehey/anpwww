@@ -233,6 +233,10 @@ nav li {
     background-color: var(--secondary);
 }
 
+.footer {
+    font-size: .8rem;
+}
+
 h2 {
     margin-left: calc(1*var(--leftMargin));
 }
@@ -247,9 +251,27 @@ h4,
     margin-left: calc(3*var(--leftMargin));
 }
 
-.products h2,
-h3 {
-    margin: 0;
+.products {
+    width: 95%;
+    margin: auto;
+}
+
+.products details,
+summary {
+    color: var(--primary);
+    padding: .3rem;
+}
+
+.products details details {
+    margin: auto;
+    width: 95%;
+}
+
+.products summary {
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 0;
+    outline: none;
 }
 
 .products a,
