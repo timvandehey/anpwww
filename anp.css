@@ -251,6 +251,12 @@ h4,
     margin-left: calc(3*var(--leftMargin));
 }
 
+body>h5 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: .4rem;
+}
+
 .products {
     width: 95%;
     margin: auto;
