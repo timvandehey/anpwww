@@ -264,7 +264,7 @@ body>h5 {
 
 .products details,
 summary {
-    color: var(--primary);
+    color: var(--black);
     padding: .3rem;
 }
 
@@ -286,12 +286,12 @@ li {
     margin: .07rem;
 }
 
-.products a {
+/* .products a {
     padding: 1rem;
     border-radius: 30%;
     border: 2px solid var(--black);
 
-}
+} */
 
 .columns2 {
     margin: auto auto;
