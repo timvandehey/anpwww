@@ -8,7 +8,6 @@
     --white: white;
     --offwhite: lightgrey;
     --black: black;
-
     --leftMargin: 3%;
 }
 
@@ -32,6 +31,10 @@ BODY.MENU {
     /* background-image: url(c8.jpg); */
     /* font-size: 11pt; */
     color: #FFFFFF;
+}
+
+iframe {
+    margin-top: 1rem;
 }
 
 A:link.MENU {
@@ -107,6 +110,12 @@ H5 {
     font-size: 15pt;
 }
 
+section {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: .5rem 0 .7rem var(--leftMargin);
+}
+
 /* img.banner {
     position: absolute;
     left: 60px;
@@ -179,7 +188,14 @@ span.ctext {
 }
 
 #information {
-    width: 50%;
+    width: clamp(20ch, 75%, 80ch);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+article {
+    width: clamp(20ch, 75%, 80ch);
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -262,23 +278,27 @@ body>h5 {
 }
 
 .center {
-    width: 95%;
+    /* width: 95%; */
     /* margin: auto; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.colorList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.colorList img {
+.center img {
     max-width: 95%;
 }
+
+.industrial-labeling {
+    flex-direction: column;
+}
+
+.industrial-labeling p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 
 /* .products details,
 summary {
@@ -326,5 +346,5 @@ summary {
 }
 
 .logo {
-    width: clamp(60%, 50%, 90%)
+    width: clamp(280px, 75%, 600px)
 }
