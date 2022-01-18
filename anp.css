@@ -337,6 +337,10 @@ summary {
     grid-gap: 1rem;
 }
 
+.columns2.thirds {
+    grid-template-columns: 60% 30%;
+}
+
 .columns2 .left {
     justify-self: right;
 }
@@ -344,6 +348,11 @@ summary {
 .columns2 .right {
     justify-self: left;
 }
+
+.holders img {
+    float: right;
+}
+
 
 .logo {
     width: clamp(280px, 75%, 600px)
