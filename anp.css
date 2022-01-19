@@ -226,6 +226,7 @@ tr {
     padding: 0;
     margin: 0;
     border: 0;
+    vertical-align: top;
 }
 
 .nav {
@@ -287,7 +288,13 @@ body>h5 {
 }
 
 .center img {
+    /* width: clamp(300px, 95%, 600px); */
     max-width: 95%;
+    object-fit: scale-down;
+    margin-left: .7rem;
+    margin-right: auto;
+    margin-top: 1rem;
+    border: .5rem solid darkgray;
 }
 
 .industrial-labeling {
@@ -347,10 +354,6 @@ summary {
 
 .columns2 .right {
     justify-self: left;
-}
-
-.holders img {
-    float: right;
 }
 
 
