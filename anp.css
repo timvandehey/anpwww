@@ -207,12 +207,20 @@ article {
     overflow-y: scroll;
 }
 
-table {
+table,
+tr {
+    table-layout: fixed;
     border-collapse: collapse;
 }
 
 html,
-body,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 table,
 .tab {
     margin: 0;
@@ -221,9 +229,10 @@ table,
     width: 100%;
 }
 
+
 td,
 tr {
-    padding: 0;
+    padding: .3rem;
     margin: 0;
     border: 0;
     vertical-align: top;
@@ -291,8 +300,8 @@ body>h5 {
     /* width: clamp(300px, 95%, 600px); */
     max-width: 95%;
     object-fit: scale-down;
-    margin-left: .7rem;
-    margin-right: auto;
+    /* margin-left: .7rem; */
+    /* margin-right: auto; */
     margin-top: 1rem;
     border: .5rem solid darkgray;
 }
@@ -304,6 +313,18 @@ body>h5 {
 .industrial-labeling p {
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.shrink {
+    padding: .5rem;
+    max-width: 50vw;
+    /* aspect-ratio: attr(width) / attr(height); */
+}
+
+.shrink25 {
+    padding: .5rem;
+    max-width: 25vw;
+    /* aspect-ratio: attr(width) / attr(height); */
 }
 
 
