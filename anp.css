@@ -361,13 +361,13 @@ summary {
 .columns2 {
     margin: auto auto;
     display: grid;
-    grid-template-columns: 20% 77%;
-    gap: 1rem;
+    grid-template-columns: max-content max-content;
+    gap: .4rem;
 }
 
-.columns2.thirds {
-    grid-template-columns: 60% 30%;
-}
+/* .columns2.thirds {
+    grid-template-columns: max-content max-content;
+} */
 
 .columns2 .left {
     justify-self: right;
