@@ -20,16 +20,10 @@ BODY {
     background-image: url("./images/noisy_grid.png");
     font-family: "Roboto";
     font-size: 16px;
-    /* font-family: arial;
-    font-size: 12pt;
-    color: #000000; */
 }
 
 BODY.MENU {
-    /* font-family: arial; */
     background-attachment: fixed;
-    /* background-image: url(c8.jpg); */
-    /* font-size: 11pt; */
     color: #FFFFFF;
 }
 
@@ -38,34 +32,26 @@ iframe {
 }
 
 A:link.MENU {
-    /* font-family: arial; */
     text-decoration: none;
     font-weight: bold;
-    /* font-size: 12pt; */
     color: var(--primary);
 }
 
 A:visited.MENU {
-    /* font-family: arial; */
     text-decoration: none;
     font-weight: bold;
-    /* font-size: 12pt; */
     color: var(--primary);
 }
 
 A:hover.MENU {
-    /* font-family: arial; */
     text-decoration: none;
     font-weight: bold;
-    /* font-size: 12pt; */
     color: #990000;
 }
 
 A:link.COLOR {
-    /* font-family: arial; */
     text-decoration: none;
     font-weight: bold;
-    /* font-size: 12pt; */
     color: var(--primary);
 }
 
@@ -78,35 +64,28 @@ A:visited.COLOR {
 }
 
 A:hover.COLOR {
-    /* font-family: arial; */
     text-decoration: none;
     font-weight: bold;
-    /* font-size: 12pt; */
     color: #990000;
 }
 
 A:link {
-    /* font-family: arial; */
     color: var(--primary);
 }
 
 A:visited {
-    /* font-family: arial; */
     color: var(--primary);
 }
 
 A:hover {
-    /* font-family: arial; */
     color: #990000;
 }
 
 H4 {
-    /* font-family: arial; */
     font-size: 20pt;
 }
 
 H5 {
-    /* font-family: arial; */
     font-size: 15pt;
 }
 
@@ -115,18 +94,6 @@ section {
     font-weight: bold;
     margin: .5rem 0 .7rem var(--leftMargin);
 }
-
-/* img.banner {
-    position: absolute;
-    left: 60px;
-    top: 7px;
-}
-
-img.banner2 {
-    position: absolute;
-    right: 60px;
-    top: 7px;
-} */
 
 img.sample {
     max-width: 500;
@@ -150,39 +117,29 @@ p.text {
 }
 
 li.text {
-    /* font-family: arial; */
-    /* font-size: 10pt; */
     color: #000000;
 }
 
 li.bodytext {
-    /* font-family: arial;
-    font-size: 10pt; */
     color: #000000;
 }
 
 span.textbold {
-    /* font-family: arial; */
     font-weight: bold;
-    /* font-size: 12pt; */
     color: #000000;
 }
 
 p.textbold {
-    /* font-family: arial; */
     font-weight: bold;
-    /* font-size: 12pt; */
     color: #000000;
 }
 
 span.featuredtext {
-    /* font-family: arial; */
     font-size: 10pt;
     color: #000000;
 }
 
 span.ctext {
-    /* font-family: arial; */
     font-size: 8pt;
     color: #000000;
 }
@@ -288,8 +245,6 @@ body>h5 {
 }
 
 .center {
-    /* width: 95%; */
-    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -297,11 +252,8 @@ body>h5 {
 }
 
 .center img {
-    /* width: clamp(300px, 95%, 600px); */
     max-width: 95%;
     object-fit: scale-down;
-    /* margin-left: .7rem; */
-    /* margin-right: auto; */
     margin-top: 1rem;
     border: .5rem solid darkgray;
 }
@@ -318,47 +270,12 @@ body>h5 {
 .shrink {
     padding: .5rem;
     max-width: 50vw;
-    /* aspect-ratio: attr(width) / attr(height); */
 }
 
 .shrink25 {
     padding: .5rem;
     max-width: 25vw;
-    /* aspect-ratio: attr(width) / attr(height); */
 }
-
-
-/* .products details,
-summary {
-    color: var(--black);
-    padding: .3rem;
-}
-
-.products details details {
-    margin: auto;
-    width: 95%;
-}
-
-.products summary {
-    font-size: 1.3rem;
-    font-weight: bold;
-    border: 0;
-    outline: none;
-}
-
-.products a {
-    background-color: var(--lightsecondary);
-    margin: .07rem;
-} */
-
-/* .products a {
-    padding: 1rem;
-    border-radius: 30%;
-    border: 2px solid var(--black);
-
-} */
-
-
 
 .contact-items {
     margin: auto auto;
@@ -379,27 +296,6 @@ summary {
     margin-top: .4rem;
     margin-bottom: .2rem;
 }
-
-.columns2 {
-    margin: auto auto;
-    display: grid;
-    grid-template-columns: max-content max-content;
-    gap: .4rem;
-}
-
-
-/* .columns2.thirds {
-    grid-template-columns: max-content max-content;
-} */
-
-.columns2 .left {
-    justify-self: right;
-}
-
-.columns2 .right {
-    justify-self: left;
-}
-
 
 .logo {
     width: clamp(280px, 75%, 600px)
