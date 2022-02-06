@@ -358,12 +358,35 @@ summary {
 
 } */
 
+
+
+.contact-items {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.contact-item {
+    flex: 1;
+    margin-left: .4rem;
+}
+
+.contact-item .label {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: .4rem;
+    margin-bottom: .2rem;
+}
+
 .columns2 {
     margin: auto auto;
     display: grid;
     grid-template-columns: max-content max-content;
     gap: .4rem;
 }
+
 
 /* .columns2.thirds {
     grid-template-columns: max-content max-content;
