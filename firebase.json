@@ -26,16 +26,7 @@
         ]
       },
       {
-        "source": "*.html",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=300"
-          }
-        ]
-      },
-      {
-        "source": "*.css",
+        "source": "**/*.@(htm|html|css)",
         "headers": [
           {
             "key": "Cache-Control",
